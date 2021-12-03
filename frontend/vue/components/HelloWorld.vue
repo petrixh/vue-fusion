@@ -22,7 +22,7 @@ function updateServer( mesg: string) {
   <div>
     <h1>{{ msg }}</h1>
 
-    <p>
+    <!--<p>
       Recommended IDE setup:
       <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
       +
@@ -43,7 +43,7 @@ function updateServer( mesg: string) {
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test hot module replacement.
-    </p>
+    </p> -->
     <div>
     <p>{{ message }}</p>
         <input v-model="message">

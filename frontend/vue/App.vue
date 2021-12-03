@@ -6,8 +6,8 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
 <div>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite"/>
+  <img alt="Vue logo" src="../../vue/assets/logo.png" />
+  <HelloWorld msg="Vaadin Fusion v22 + Hello Vue 3 + TypeScript + Vite"/>
 </div>
 </template>
 
