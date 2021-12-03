@@ -48,7 +48,7 @@ function updateServer( mesg: string) {
     <p>{{ message }}</p>
         <input v-model="message">
         <button v-on:click="updateServer(message)">Say what</button>
-        <button v-on:click="$emit('updatedvalue')">Say what emit</button>
+        <!-- <button v-on:click="$emit('updatedvalue')">Say what emit</button> -->
         <p>{{ resp }}</p>
     </div>
   </div>
