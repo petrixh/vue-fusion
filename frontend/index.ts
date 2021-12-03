@@ -1,6 +1,9 @@
 import { Router } from '@vaadin/router';
 import { routes } from './routes';
 import { appStore } from './stores/app-store';
+import { createApp } from 'vue';
+//@ts-ignore 
+import App from './vue/App.vue'; 
 
 export const router = new Router(document.querySelector('#outlet'));
 
@@ -15,3 +18,5 @@ window.addEventListener('vaadin-router-location-changed', (e) => {
     document.title = appStore.applicationName;
   }
 });
+
+createApp(App).mount('#app')
